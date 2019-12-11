@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { ServerComponentComponent } from './serve/server-component/server-component.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponentComponent
-
   ],
   imports: [
     BrowserModule,
