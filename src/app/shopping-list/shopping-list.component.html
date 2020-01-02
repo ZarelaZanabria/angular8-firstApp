@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-xs-10">
+    <app-shopping-edit></app-shopping-edit>
+    <hr>
+{{zarela | json }}
+    <ul class="list-group">
+      <a class="list-group-item"
+       style="cursor:pointer;"
+      *ngFor="let ingredient of zarela" >
+      {{ingredient.name}} ({{ingredient.amaunt}})
+    </a>
+
+    </ul>
+
+  </div>
+</div>
